@@ -2,13 +2,21 @@
 
 const { title, url, description, pubDate, author, image, tags } = Astro.props;
 ---
+<style>
+  li:hover {
+    border: .25px solid lightgray; /* Lightened border color */
+    transition: border-color 1s ease 0s; /* Slower animation */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>
 
 <li>
   <a href={url} title={title} class="group">
     <article class="flex-1 h-full flex flex-col">
       <div class="block w-full lg:col-span-2">
         <img
-          class="aspect-[2/3] object-cover bg-center h-full w-full"
+          class="aspect-[1/1] object-cover bg-center h-full w-full"
           src={image}
           alt={title}
         />
