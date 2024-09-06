@@ -1,5 +1,10 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../../assets/images/webdev.png'
+---
+
 <div
-  class=" "
+  class=""
 
 >
   <div class=" px-8 md:px-12 mx-auto max-w-7xl py-2  lg:px-32 text-xs">
@@ -14,7 +19,7 @@
           class="text-black hover:text-zinc-500 items-center font-normal uppercase gap-3 inline-flex "
           href="/"
         >
-         <img src="/src/assets/images/webdev.png" alt="logo" class="w-6 h-6">
+         <Image src={logo} alt="logo" class="w-6 h-6" />
          Fiona Is Developing
         </a>
         <button
