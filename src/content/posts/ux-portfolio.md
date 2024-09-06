@@ -4,7 +4,7 @@ author: Fiona Karlsson
 title: My User Research Portfolio
 description: "A collection of user research projects I've conducted, as well as my process and approach to conducting research."
 image:
-  url: '/public/images/ux-landing.jpg'
+  url: '/images/ux-landing.jpg'
   alt: 'User research portfolio'
 tags: ['HTML', 'Tailwind', 'Javascript', 'Astro']
 ---
